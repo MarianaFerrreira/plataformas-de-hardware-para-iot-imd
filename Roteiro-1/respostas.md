@@ -50,19 +50,22 @@ Arquivo → Exportar como Link)
 
 ### Questão 2
 Calcule a constante de tempo do circuito RC.
-> A constante de tempo de um circuito RC é calculada pela fórmula τ=R⋅C. Considerando R = 220.000Ω
-C=22μF=22×10
-−6
-F.
-> Temos: τ=(220.000)(22×10
-−6
-)
-$$ \boxed{\tau=4,84s} $$
-Resposta: A constante de tempo do circuito é 4,84 s.
+> A constante de tempo de um circuito RC é calculada pela fórmula:
+>
+> $$\tau = R \cdot C$$
+>
+> Considerando $R = 220k\Omega$ e $C = 22\mu F$:
+>
+> $$\tau = (220.000)(22 \times 10^{-6})$$
+>
+> $$\tau = 4,84s$$
+>
+> Portanto, a constante de tempo do circuito é **4,84 s**.
 
 ### Questão 3
 Utilizando a simulação, faça a permuta da chave para a posição A e meça o tempo
 que levou para a tensão sobre o capacitor sair de 0V e alcançar 1,9 V.
+> Na simulação, o capacitor é carregado quando a chave é colocada na posição A. O tempo medido para a tensão do capacitor atingir 1,9 V foi de aproximadamente **4,86 s**.
 
 ### Questão 4
 Discuta os seguintes questionamentos:
@@ -71,10 +74,34 @@ quê?
 b. Se a resistência do circuito da Figura 2 for alterada para um valor de 100k, o
 tempo para a tensão do capacitor chegar em 1,9V é maior ou menor que o
 tempo medido com a resistência 220k? Justifique.
+
 #### a.
+> Sim. O tempo medido foi aproximadamente **4,86 s**, enquanto a constante de tempo calculada foi **4,84 s**. Os valores são muito próximos porque, após uma constante de tempo, a tensão do capacitor durante a carga atinge aproximadamente 63,2% da tensão final.
+>
+> Como a tensão da fonte é 3 V:
+>
+> $$0,632 \times 3 \approx 1,9V$$
+>
+> Portanto, o tempo necessário para o capacitor atingir aproximadamente 1,9 V é próximo de uma constante de tempo.
 
 #### b.
+> O tempo será **menor**.
+>
+> A constante de tempo é calculada pela fórmula:
+>
+> $$\tau = R \cdot C$$
+>
+> Alterando a resistência para 100 kΩ:
+>
+> $$\tau = (100.000)(22 \times 10^{-6})$$
+>
+> $$\tau = 2,2s$$
+>
+> Como a resistência diminuiu, a constante de tempo também diminuiu. Portanto, o capacitor atingirá 1,9 V mais rapidamente.
 
 ### Questão 5
 Retorne a chave para a posição B e observe o comportamento da tensão do capacitor.
 Explique o que acontece.
+> Ao colocar a chave na posição B, o capacitor começa a **descarregar**. Sua tensão diminui gradualmente ao longo do tempo, aproximando-se de 0 V. Isso ocorre porque a carga armazenada no capacitor é liberada através do resistor.
+>
+> A descarga não ocorre instantaneamente, pois o resistor limita a corrente de descarga. A velocidade desse processo depende da constante de tempo do circuito RC.
