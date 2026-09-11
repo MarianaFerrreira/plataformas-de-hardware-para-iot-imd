@@ -37,18 +37,44 @@ Se tivéssemos utilizando um circuito com elementos reais (e não simulados), a 
 calculada seria exatamente a mesma da calculada? Justifique.
 > Não necessariamente. Isso ocorre porque, em um circuito real, os componentes não são ideais e possuem tolerâncias e pequenas variações em seus valores. Além disso, a fonte e os instrumentos de medição também podem apresentar pequenas diferenças em relação aos valores ideais.
 
-## Experimento 02 — Carga e descarga de capacitores
+## Exercício 02 — Carga e descarga de capacitores
+A Figura 2 apresenta um circuito RC com uma malha para carregar e descarregar o capacitor.
+Quando a chave encontra-se na posição A, o capacitor é carregado. Quando na posição B,
+o capacitor é descarregado.
+<img width="376" height="264" alt="image" src="https://github.com/user-attachments/assets/54b11352-c10f-496b-af6f-206150d3f5a8" />
 
 ### Questão 1
+Envie o arquivo da simulação como um link Falstad (Circuit Simulator Falstad →
+Arquivo → Exportar como Link)
+>[Circuito 2](https://www.falstad.com/s.php?s=b9EuMU)
 
 ### Questão 2
+Calcule a constante de tempo do circuito RC.
+> A constante de tempo de um circuito RC é calculada pela fórmula τ=R⋅C. Considerando R = 220.000Ω
+C=22μF=22×10
+−6
+F.
+> Temos: τ=(220.000)(22×10
+−6
+)
+$$ \boxed{\tau=4,84s} $$
+Resposta: A constante de tempo do circuito é 4,84 s.
 
 ### Questão 3
+Utilizando a simulação, faça a permuta da chave para a posição A e meça o tempo
+que levou para a tensão sobre o capacitor sair de 0V e alcançar 1,9 V.
 
 ### Questão 4
-
+Discuta os seguintes questionamentos:
+a. O tempo medido foi similar à constante de tempo do circuito RC? Sabe por
+quê?
+b. Se a resistência do circuito da Figura 2 for alterada para um valor de 100k, o
+tempo para a tensão do capacitor chegar em 1,9V é maior ou menor que o
+tempo medido com a resistência 220k? Justifique.
 #### a.
 
 #### b.
 
 ### Questão 5
+Retorne a chave para a posição B e observe o comportamento da tensão do capacitor.
+Explique o que acontece.
