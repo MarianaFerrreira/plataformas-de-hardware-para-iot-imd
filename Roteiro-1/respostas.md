@@ -26,13 +26,16 @@ Calcule a tensão e a corrente que passa pelo resistor de 1k.
 Com o auxílio de um multímetro na função de amperímetro, meça a corrente que
 passa pelo resistor de 1k. LEMBRE-SE que o amperímetro deve ser ligado em série
 com o ramo do circuito.
+> Na simulação, o amperímetro foi conectado em série com o ramo do resistor de 1kΩ, conforme orientado. O valor medido foi de aproximadamente 5mA.
 
 ### Questão 4
 Compare o valor medido com o valor calculado.
+> Os valores comparados são praticamente iguais, o que confirma o resultado obtido pelo cálculo.
 
 ### Questão 5
 Se tivéssemos utilizando um circuito com elementos reais (e não simulados), a corrente
 calculada seria exatamente a mesma da calculada? Justifique.
+> Não necessariamente. Isso ocorre porque, em um circuito real, os componentes não são ideais e possuem tolerâncias e pequenas variações em seus valores. Além disso, a fonte e os instrumentos de medição também podem apresentar pequenas diferenças em relação aos valores ideais.
 
 ## Experimento 02 — Carga e descarga de capacitores
 
