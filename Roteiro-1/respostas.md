@@ -41,6 +41,7 @@ calculada seria exatamente a mesma da calculada? Justifique.
 A Figura 2 apresenta um circuito RC com uma malha para carregar e descarregar o capacitor.
 Quando a chave encontra-se na posição A, o capacitor é carregado. Quando na posição B,
 o capacitor é descarregado.
+
 <img width="376" height="264" alt="image" src="https://github.com/user-attachments/assets/54b11352-c10f-496b-af6f-206150d3f5a8" />
 
 ### Questão 1
