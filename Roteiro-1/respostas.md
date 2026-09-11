@@ -14,12 +14,12 @@ Envie o arquivo da simulação como um link Falstad (Circuit Simulator Falstad �
 ### Questão 2
 Calcule a tensão e a corrente que passa pelo resistor de 1k.
 > Como o resistor de 1kΩ está ligado em paralelo com a fonte de 5V, a tensão sobre ele é igual à tensão da fonte:
-> V = 5V
+> V = 5V.
 > Para calcular a corrente, utilizamos a Lei de Ohm:
-> I = V/R
+> I = V/R.
 > Substituindo os valores, temos:
-> I = 5/1000 = 0,005 A
-> Convertendo para miliampères, temos 5mA.
+> I = 5/1000 = 0,005 A.
+> Convertendo para miliampères -> 5mA.
 > Logo, a tensão sobre o resistor de 1kΩ é 5V e a corrente que passa por ele é 5mA.
 
 ### Questão 3
